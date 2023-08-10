@@ -1,6 +1,7 @@
 # RYFT MintTracker Application (Prototype)
 
 👉 **[Check out the Demo](https://mint-tracker-beta.netlify.app/)**
+![Screenshot 2023-08-10 163203](https://github.com/szabolcsthedeveloper/mint-tracker/assets/109295080/f21b0b95-d39b-4575-93c7-9d7ccd05e31c)
 
 Welcome to the official repository of the RYFT Whitelist Tracker Application Beta. This application serves as a prototype version of our real RYFT Pass application, offering a simplified experience for all users. Use this version to stay updated on selected whitelists and upcoming releases within the web3 project space. With the RYFT Whitelist Tracker, you'll receive notifications that keep you informed about the latest developments in the projects you care about.
 

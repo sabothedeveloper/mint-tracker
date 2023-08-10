@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# RYFT MintTracker Application (Prototype)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+👉 **[Check out the Demo](https://mint-tracker-beta.netlify.app/)**
 
-## Available Scripts
+Welcome to the official repository of the RYFT Whitelist Tracker Application Beta. This application serves as a prototype version of our real RYFT Pass application, offering a simplified experience for all users. Use this version to stay updated on selected whitelists and upcoming releases within the web3 project space. With the RYFT Whitelist Tracker, you'll receive notifications that keep you informed about the latest developments in the projects you care about.
 
-In the project directory, you can run:
+## About RYFT
 
-### `npm start`
+RYFT is a self-employed endeavor founded by a dedicated co-founder, team lead, and frontend developer with a strong passion for web3 technologies. Since its inception in March 2022, RYFT has been dedicated to revolutionizing the way whitelist project management is handled in the web3 ecosystem.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Achievements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **RYFT Pass Prototype:** Our flagship product, RYFT Pass, has set new standards in web3 project management. While this is a simplified prototype version, it still aims to transform how whitelists are managed and provide users with basic control and insight.
 
-### `npm test`
+- **Discord Bot Innovation:** Leveraging a solid understanding of Discord bot development using Python, we've developed an innovative solution that automates the process of sending users direct messages about upcoming project releases on our server. This automation enhances user engagement and keeps the community well-informed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Intuitive User Interfaces:** Our team takes pride in delivering intuitive user interfaces for both web and iOS applications. By utilizing React and React Native, we've created interfaces that provide basic notifications on whitelists and upcoming releases. This focus on user experience aims to enhance engagement and user satisfaction.
 
-### `npm run build`
+- **Automated Information Delivery:** Through the implementation of automated information delivery using JavaScirpt (via JavaScript), we've further improved overall user engagement and satisfaction. This feature ensures that users are promptly informed about upcoming projects, fostering a more engaged and informed community.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To take advantage of the RYFT Whitelist Tracker Application Beta, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:** Start by cloning this repository to your local machine using the following command:
 
-### `npm run eject`
+```
+git clone https://github.com/your-username/ryft-whitelist-tracker.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install Dependencies:** Navigate to the project directory and install the necessary dependencies by running:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Run the Application:** Launch the application by executing the appropriate command for your platform:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- For web: `npm run start-web`
+- For iOS: `npm run start-ios`
 
-## Learn More
+4. **Stay Updated:** Once the application is up and running, you'll receive basic notifications about whitelists and upcoming releases, ensuring you're aware of important updates.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We welcome contributions from the community to make the RYFT Whitelist Tracker Application even better. If you're interested in contributing, please refer to our [contribution guidelines](CONTRIBUTING.md).
 
-### Code Splitting
+## Contact Us
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you have any questions, suggestions, or feedback, feel free to reach out to us. You can contact the project lead, [Your Name](mailto:your.email@example.com).
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for being a part of the RYFT community and helping us shape the future of web3 project tracking!

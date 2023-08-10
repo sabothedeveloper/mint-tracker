@@ -140,7 +140,7 @@ function NewFactForm({ setFacts, setShowForm }) {
       {" "}
       <input
         type="text"
-        placeholder="Share a fact with the world..."
+        placeholder="Share a project's name..."
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
@@ -148,7 +148,7 @@ function NewFactForm({ setFacts, setShowForm }) {
       <input
         value={source}
         type="text"
-        placeholder="Trustworthy source..."
+        placeholder="Source..."
         onChange={(e) => setSource(e.target.value)}
         disabled={isUploading}
       />
@@ -221,6 +221,9 @@ function FactList({ facts, setFacts }) {
 
 function Fact({ fact, setFacts }) {
   const [isUpdating, setIsUpdating] = useState(false);
+  const isDisputed =
+    fact.votesInteresting < fact.votesFalse ||
+    fact.votesInteresting < fact.votesMindblowing;
 
   async function handleVote(columnName) {
     setIsUpdating(true);
@@ -240,12 +243,10 @@ function Fact({ fact, setFacts }) {
   return (
     <li className="fact">
       <div className="fact-content">
-        {/* TODO - ADD INDIVIDUAL IMGS */}
-        <div className="top-right-image">
-          <img src="ascenders.png" alt="Ascenders logo" />
-        </div>
-
         <div className="tags-container">
+          <p>
+            {isDisputed ? <span className="disputed">[🛑DYOR]</span> : null}
+          </p>
           <span
             className="tag"
             style={{

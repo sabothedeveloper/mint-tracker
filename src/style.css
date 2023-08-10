@@ -10,7 +10,7 @@ body {
   color: #f7f7f7;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  padding: 48px 64px;
+  padding: 48px 64px 10px;
 }
 
 .hidden {
@@ -23,6 +23,12 @@ body {
   font-size: 32px;
   font-weight: 600;
   margin-top: 24px;
+}
+
+.disputed {
+  color: #ef4444;
+  font-weight: 600;
+  margin-left: 5px;
 }
 
 /* MAIN LAYOUT */
@@ -38,10 +44,20 @@ body {
   justify-content: space-between;
 }
 
+section {
+  overflow: auto;
+}
+
+section::-webkit-scrollbar {
+  width: 0px; /* Hides scrollbar */
+}
+
 .main {
   display: grid;
   grid-template-columns: 250px 1fr;
   gap: 48px;
+  height: calc(100vh - 48px - 68px - 40px);
+  overflow: hidden;
 }
 
 @media (max-width: 900px) {
@@ -74,25 +90,6 @@ h1 {
 
 .category {
   margin-bottom: 16px;
-}
-
-.top-right-image {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  flex: 0 0 auto;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  border-radius: 10%;
-  overflow: hidden; /* Ensure the image remains within the rounded border */
-}
-
-.top-right-image img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10%;
-  object-fit: cover; /* Maintain the aspect ratio and fill the available space */
 }
 
 .fact {
